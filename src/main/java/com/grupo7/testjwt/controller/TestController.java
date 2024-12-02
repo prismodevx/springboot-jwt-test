@@ -16,7 +16,7 @@ public class TestController {
     public ResponseEntity<ApiResponseDto<?>> Test() {
         ApiResponseDto<?> response = ApiResponseDto.builder()
                 .isSuccess(true)
-                .message("Let's learn spring security with JWT!")
+                .message("spring security jwt")
                 .build();
         return ResponseEntity.status(HttpStatus.OK).body(response);
     }
